@@ -293,38 +293,6 @@ Generate sentiment trend over time
 
 **Response:** PNG image (line graph)
 
-## 🌐 Deployment
-
-### Deploy Flask API to Render
-
-1. **Create `requirements.txt`** (already included)
-
-2. **Create `Procfile`**
-
-```
-web: gunicorn app:app
-```
-
-3. **Push to GitHub**
-
-```bash
-git add .
-git commit -m "Deploy to Render"
-git push
-```
-
-4. **Deploy on Render**
-
-   - Go to [render.com](https://render.com)
-   - New Web Service → Connect GitHub repo
-   - Build & deploy automatically
-
-5. **Update extension**
-   - In `popup.js`, change:
-   ```javascript
-   const API_URL = "https://your-app.onrender.com/";
-   ```
-
 ## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
