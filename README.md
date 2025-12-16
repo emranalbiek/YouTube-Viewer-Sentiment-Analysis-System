@@ -101,7 +101,7 @@ The LightGBM model was trained on a combined dataset from Reddit, YouTube, and T
 
 **Confusion Matrix:**
 
-![Lightgbm](.\demo\lgbm_confusion_matrix.png)
+![Lightgbm](demo\lgbm_confusion_matrix.png)
 
 ### Model Details
 
@@ -212,7 +212,7 @@ youtube-sentiment-analyzer/
 
 ## 🔌 API Endpoints
 
-![Postman](.\demo\postman.png)
+![Postman](demo\postman.png)
 
 ### POST `/predict_with_timestamps`
 
@@ -331,7 +331,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgments
 
-- **Datasets**: Reddit, YouTubesentiment datasets
+- **Datasets**: Reddit, YouTube Comments datasets
 - **Libraries**: LightGBM, Flask, NLTK, Matplotlib, WordCloud
 - **Inspiration**: YouTube comment toxicity research
 
