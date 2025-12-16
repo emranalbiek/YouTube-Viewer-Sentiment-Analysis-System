@@ -101,7 +101,7 @@ The LightGBM model was trained on a combined dataset from Reddit, YouTube, and T
 
 **Confusion Matrix:**
 
-![Lightgbm](demo\lgbm_confusion_matrix.png)
+![Lightgbm](demo/lgbm_confusion_matrix.png)
 
 ### Model Details
 
@@ -212,7 +212,7 @@ youtube-sentiment-analyzer/
 
 ## 🔌 API Endpoints
 
-![Postman](demo\postman.png)
+![Postman](demo/postman.png)
 
 ### POST `/predict_with_timestamps`
 
