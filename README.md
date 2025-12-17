@@ -24,9 +24,8 @@ This project combines a Chrome Extension with a Flask-based ML API to provide re
 <img src="demo/youtube4.png" alt="workflow" width="80%">
 
 ### Streamlit App
-
 <video width="320" height="240" controls>
-  <source src="demo/video.mp4" type="video/mp4">
+  <source src="video.mov" type="video/mp4">
 </video>
 
 ## ✨ Features
