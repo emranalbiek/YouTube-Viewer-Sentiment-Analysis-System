@@ -11,7 +11,7 @@
     "activeTab",
     "scripting",
     "http://localhost/*",
-    "https://*.pythonanywhere.com/*",
+    "https://*.railway.app/*",
     "https://www.googleapis.com/*"
   ]
 }
