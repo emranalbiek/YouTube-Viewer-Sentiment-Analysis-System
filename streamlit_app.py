@@ -61,6 +61,7 @@ def download_nltk_data():
 download_nltk_data()
 
 # Preprocessing function
+@st.cache_data
 def preprocess_comment(comment):
     """Preprocess a single comment"""
     try:
