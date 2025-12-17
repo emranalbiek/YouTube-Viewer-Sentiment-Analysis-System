@@ -60,12 +60,8 @@ def load_model(model_path, vectorizer_path):
     except Exception as e:
         raise
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, 'artifacts', 'lightgbm_model.pkl')
-VECTORIZER_PATH = os.path.join(BASE_DIR, 'artifacts', 'tfidf_vectorizer.pkl')
-
 # Initialize the model and vectorizer
-model, vectorizer = load_model(MODEL_PATH, VECTORIZER_PATH)  
+model, vectorizer = load_model(r"artifacts\lightgbm_model.pkl", r"artifacts\tfidf_vectorizer.pkl")  
 
 @app.route('/')
 def home():
