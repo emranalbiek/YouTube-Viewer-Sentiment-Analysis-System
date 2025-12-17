@@ -4,6 +4,7 @@ matplotlib.use('Agg')  # Use non-interactive backend before importing pyplot
 from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS
 import io
+import os
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import re
@@ -59,9 +60,12 @@ def load_model(model_path, vectorizer_path):
     except Exception as e:
         raise
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, 'artifacts', 'lightgbm_model.pkl')
+VECTORIZER_PATH = os.path.join(BASE_DIR, 'artifacts', 'tfidf_vectorizer.pkl')
 
 # Initialize the model and vectorizer
-model, vectorizer = load_model("artifacts/lightgbm_model.pkl", "artifacts/tfidf_vectorizer.pkl")  
+model, vectorizer = load_model(MODEL_PATH, VECTORIZER_PATH)  
 
 @app.route('/')
 def home():
