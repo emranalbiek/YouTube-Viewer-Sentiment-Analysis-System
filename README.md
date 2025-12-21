@@ -190,7 +190,7 @@ python app.py
 
 Server will start at `http://localhost:8080`
 
-7. **Run the Streamlit Apll**
+7. **Run the Streamlit App**
 
 ```bash
 python streamlit_app.py
