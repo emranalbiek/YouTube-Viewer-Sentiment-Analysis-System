@@ -190,6 +190,12 @@ python app.py
 
 Server will start at `http://localhost:8080`
 
+7. **Run the Streamlit Apll**
+
+```bash
+python streamlit_app.py
+```
+
 ### Chrome Extension Setup
 
 1. **Add your YouTube API Key**
