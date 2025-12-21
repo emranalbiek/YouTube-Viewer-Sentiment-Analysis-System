@@ -10,7 +10,7 @@
 
 ## 📋 Overview
 
-This project combines a Chrome Extension and App with a Flask-based and streamlit-based ML API to provide real-time sentiment analysis of YouTube video comments. It fetches up to 1,000 comments, analyzes their sentiment (Positive/Neutral/Negative), and presents interactive visualizations including pie charts, word clouds, and sentiment trends over time.
+This project combines a Chrome Extension with a Flask-based ML API and a streamlit-based ML App to provide real-time sentiment analysis of YouTube video comments. It fetches up to 1,000 comments, analyzes their sentiment (Positive/Neutral/Negative), and presents interactive visualizations including pie charts, word clouds, and sentiment trends over time.
 
 ## 📸 Demo
 
