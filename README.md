@@ -1,6 +1,6 @@
 # ![youtube](https://img.icons8.com/?size=26&id=37326&format=png&color=FF0000) YouTube Comment Sentiment Analyzer
 
-> A Chrome extension powered by Machine Learning that analyzes YouTube video comments in real-time using sentiment analysis.
+> A Chrome extension and App powered by Machine Learning that analyzes YouTube video comments in real-time using sentiment analysis.
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-3.0+-green.svg)](https://flask.palletsprojects.com/)
@@ -9,7 +9,7 @@
 
 ## 📋 Overview
 
-This project combines a Chrome Extension with a Flask-based ML API to provide real-time sentiment analysis of YouTube video comments. It fetches up to 1,000 comments, analyzes their sentiment (Positive/Neutral/Negative), and presents interactive visualizations including pie charts, word clouds, and sentiment trends over time.
+This project combines a Chrome Extension and App with a Flask-based and streamlit-based ML API to provide real-time sentiment analysis of YouTube video comments. It fetches up to 1,000 comments, analyzes their sentiment (Positive/Neutral/Negative), and presents interactive visualizations including pie charts, word clouds, and sentiment trends over time.
 
 ## 📸 Demo
 
